@@ -1,0 +1,17 @@
+services:
+  # приложение Next.js
+  web:
+    # сборка на основе Dockerfile
+    build: .
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
+    # внутренняя сеть для коммуникации сервисов
+    networks:
+      - my_network
+
+# сети
+networks:
+  my_network:
+    driver: bridge

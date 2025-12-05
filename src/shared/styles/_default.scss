@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+/* -----------------------------------------
+   1. Box sizing
+------------------------------------------ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* -----------------------------------------
+   2. Remove default margins
+------------------------------------------ */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* -----------------------------------------
+   3. Remove list styles
+------------------------------------------ */
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+/* -----------------------------------------
+   4. Base body styles
+------------------------------------------ */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  font-family: "Inter", sans-serif;
+}
+
+/* -----------------------------------------
+   5. Images and media
+------------------------------------------ */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* -----------------------------------------
+   6. Forms
+------------------------------------------ */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* Remove textarea resize on some browsers */
+textarea {
+  resize: vertical;
+}
+
+/* -----------------------------------------
+   7. Links
+------------------------------------------ */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* -----------------------------------------
+   8. Table reset
+------------------------------------------ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* -----------------------------------------
+   9. Accessibility helpers
+------------------------------------------ */
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}

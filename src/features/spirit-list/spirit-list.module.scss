@@ -1,0 +1,28 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.loading,
+.error {
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+.loading {
+  background-color: rgba(33, 150, 243, 0.1);
+  color: #2196F3;
+}
+
+.error {
+  background-color: rgba(244, 67, 54, 0.1);
+  color: #F44336;
+}

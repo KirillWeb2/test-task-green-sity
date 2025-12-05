@@ -1,0 +1,45 @@
+// ===============================
+// 🎨 Цвета
+// ===============================
+$color-bg-dark: #1e1e2e;
+$color-bg-darker: #16213e;
+
+$color-primary: #9c27b0; // основной фиолетовый
+$color-primary-dark: #7b1fa2; // затемнённый фиолетовый
+$color-primary-light: #ce93d8; // светлый фиолетовый
+
+$color-success: #4caf50;
+
+$color-border: rgba(255, 255, 255, 0.1);
+$color-text: #ffffff;
+$color-textMuted: rgba(255, 255, 255, 0.6);
+
+// ===============================
+// 🌫 Градиенты
+// ===============================
+$gradient-card: linear-gradient(
+  135deg,
+  $color-bg-dark 0%,
+  $color-bg-darker 100%
+);
+$gradient-button: linear-gradient(
+  135deg,
+  $color-primary 0%,
+  $color-primary-dark 100%
+);
+
+// ===============================
+// 🌑 Тени
+// ===============================
+$shadow-card-hover: 0 8px 24px rgba($color-primary, 0.2);
+$shadow-button-hover: 0 4px 12px rgba($color-primary, 0.4);
+
+// ===============================
+// 📏 Радиусы/отступы
+// ===============================
+$radius-card: 12px;
+$radius-btn: 6px;
+
+$spacing-base: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-sm: 0.75rem;
